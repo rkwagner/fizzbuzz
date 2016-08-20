@@ -14,8 +14,8 @@ c = []
 for f in content:
     str = ""
     for p in range(len(f)):
-        c = ((f[p]+p)&255)
-        str += c
+        temp = ((ord(f[p])+p)&255)
+        str += chr(temp)
     c.append(str)
     target.write(str)
 
