@@ -19,3 +19,5 @@ for f in content:
     c.append(str)
     target.write(str)
 
+
+#next step:organization, switch from the target to a new source.
